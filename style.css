@@ -1,0 +1,34 @@
+/* text color #44C396 */
+/* background color #33343D */
+
+body{
+    background-color: #33343D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-color{
+    color: #44C396;
+    font-family: 'Berkshire Swash', cursive;;
+}
+
+.player-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#players-container{
+    display: flex;
+    gap: 4vw;
+}
+
+#header-text{
+    font-size: 6vw;
+    margin: 3vw;
+}
+#player-text{
+    font-size: 2vw;
+    font-weight: 100;
+}
