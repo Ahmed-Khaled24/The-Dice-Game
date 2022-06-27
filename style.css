@@ -1,8 +1,8 @@
 /* text color #44C396 */
-/* background color #33343D */
+/* background color #393E46 */
 
 body{
-    background-color: #33343D;
+    background-color: #393E46;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@ img{
 
 #header-text{
     font-family: 'Lobster', cursive;
-    font-size: 6vw;
+    font-size: 8vw;
     margin: 3vw;
     text-shadow: 2px 2px black;
     
