@@ -8,9 +8,9 @@ function generate_random_int(){
 
 function get_the_winner(player1_dice, player2_dice){
     if(player1_dice > player2_dice)
-        return "player 1";
+        return "Player 1";
     else 
-        return "player 2";
+        return "Player 2";
 }
 
 function change_players_dice(player1_dice, player2_dice){
