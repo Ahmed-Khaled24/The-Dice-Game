@@ -8,10 +8,11 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+img{
+    width: 15vw;
+}
 .text-color{
     color: #44C396;
-    font-family: 'Berkshire Swash', cursive;;
 }
 
 .player-container{
@@ -20,11 +21,13 @@ body{
     align-items: center;
 }
 #players-container{
+    font-family: 'Indie Flower', cursive;
     display: flex;
     gap: 4vw;
 }
 
 #header-text{
+    font-family: 'Lobster', cursive;
     font-size: 6vw;
     margin: 3vw;
 }
@@ -32,3 +35,4 @@ body{
     font-size: 2vw;
     font-weight: 100;
 }
+
