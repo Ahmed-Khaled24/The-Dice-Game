@@ -30,9 +30,16 @@ img{
     font-family: 'Lobster', cursive;
     font-size: 6vw;
     margin: 3vw;
+    text-shadow: 2px 2px black;
+    
 }
 #player-text{
     font-size: 2vw;
     font-weight: 100;
 }
-
+#signature{
+    font-size: 1.5vw;
+    font-family: 'Indie Flower', cursive;
+    color: lightgray;
+    margin-top: 10vh;
+}
