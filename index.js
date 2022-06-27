@@ -9,8 +9,10 @@ function generate_random_int(){
 function get_the_winner(player1_dice, player2_dice){
     if(player1_dice > player2_dice)
         return "Player 1";
-    else 
+    else if(player1_dice < player2_dice)
         return "Player 2";
+    else 
+        return "Draw";
 }
 
 function change_players_dice(player1_dice, player2_dice){
@@ -21,7 +23,11 @@ function change_players_dice(player1_dice, player2_dice){
 }
 
 function announce_the_winner(winner){
-    document.getElementById("header-text").innerHTML = winner + " Wins!";
+    if(winner !== "Draw")
+        document.getElementById("header-text").innerHTML = winner + " Wins!";
+    else 
+    document.getElementById("header-text").innerHTML = "Draw!";
+
 }
 
 function main(){
