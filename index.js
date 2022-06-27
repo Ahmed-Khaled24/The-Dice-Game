@@ -20,3 +20,6 @@ function change_players_dice(player1_dice, player2_dice){
     document.getElementById("player2").setAttribute("src", "images/"+player2_photo);
 }
 
+function announce_the_winner(winner){
+    document.getElementById("header-text").innerHTML = winner + " Wins!";
+}
