@@ -23,3 +23,13 @@ function change_players_dice(player1_dice, player2_dice){
 function announce_the_winner(winner){
     document.getElementById("header-text").innerHTML = winner + " Wins!";
 }
+
+function main(){
+    var player1_dice = generate_random_int();
+    var player2_dice = generate_random_int();
+    var winner = get_the_winner(player1_dice, player2_dice);
+    change_players_dice(player1_dice, player2_dice);
+    announce_the_winner(winner);
+}
+
+main();
