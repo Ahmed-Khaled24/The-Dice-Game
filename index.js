@@ -4,4 +4,11 @@ function generate_random_int(){
     return random_number;
 }
 
+function get_the_winner(player1, player2){
+    if(player1 > player2)
+        return "player1";
+    else 
+        return "player2";
+}
+
 
